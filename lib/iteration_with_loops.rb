@@ -14,10 +14,10 @@ def find_min_in_nested_arrays(src)
           smallest_num = src[row][col]
         end
         
-        
         col+= 1      
         
       end
+      n_arr[row] = samllest_num
       row+= 1
   end
   
