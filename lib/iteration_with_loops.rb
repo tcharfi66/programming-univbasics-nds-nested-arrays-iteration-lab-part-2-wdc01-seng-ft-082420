@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
   while row < src.length do
       col = 0 
       smallest_num = src [row][col]
-      while col< src[col].length do 
+      while col< src[row].length do 
         if src[row][col] < smallest_num
           smallest_num = src[row][col]
         end
